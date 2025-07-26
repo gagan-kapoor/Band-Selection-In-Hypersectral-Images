@@ -30,26 +30,12 @@ The model is evaluated on the **Different hyperspectral dataset**, achieving sta
 
 ---
 
-## **Project Structure**
-.
-├── arguments.py # Argument definitions
-├── generate_datasets.py # Data loading and preprocessing
-├── model_2.py # CNN with 2 attention modules
-├── model_3.py # CNN with 3 attention modules
-├── model_4.py # CNN with 4 attention modules
-├── training_attention.py # Main training and evaluation script
-├── output/ # Output directory for models, plots, and metrics
-└── README.md
-
 ##  Future Work
-Add support for more hyperspectral datasets.
-
-Experiment with Transformer-based models for band selection.
-
-Extend to segmentation tasks.
+- Add support for more hyperspectral datasets.
+- Experiment with Transformer-based models for band selection.
+- Extend to segmentation tasks.
 
 ## References
-Hyperspectral Band Selection Using Attention-Based Convolutional Neural Networks (research paper).
-
-Pavia University Dataset (Remote Sensing Lab, University of Pavia).
+- Hyperspectral Band Selection Using Attention-Based Convolutional Neural Networks (research paper).
+- Pavia University Dataset (Remote Sensing Lab, University of Pavia).
 
